@@ -1,0 +1,12 @@
+interface:
+  display_name: "React Fiber Reconstruction"
+  short_description: "Reconstruct React components from live UIs"
+  default_prompt: "Use $react-fiber-reconstruction to reconstruct React components from a live site using Fiber, DOM, interaction, and computed-style evidence."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "chrome-devtools"
+      description: "Browser runtime extraction for DOM, Fiber, interaction, network, and style evidence"
+    - type: "mcp"
+      value: "tavily-remote"
+      description: "Optional web research for React internals or external documentation"
