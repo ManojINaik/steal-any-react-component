@@ -22,7 +22,13 @@ Website-agnostic skill pack for reconstructing React components from live websit
 Skills docs:
 - https://skills.sh/docs
 
-Since this repo now contains a single skill at root:
+Since this repo contains a single skill at root, preferred command:
+
+```bash
+npx skills add ManojINaik/steal-any-react-component
+```
+
+Full URL also works:
 
 ```bash
 npx skills add https://github.com/ManojINaik/steal-any-react-component
